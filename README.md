@@ -1,1 +1,169 @@
-# junior-dotnet-learning-path
+# 📘 Learning Path for Junior .NET (C#) Software Engineer
+
+You don’t need to become an expert in every topic listed below, but it’s crucial to understand:
+
+- **What**: What the topic is and what problem it solves.
+- **Why & When**: Why and when to use it—and when it doesn’t make sense.
+- **How**: Theory is good, but hands-on practice (e.g., mini-projects) is strongly recommended.
+
+> 💡 **Tip**: You don’t need to memorize everything—just know how to find the right information and apply it effectively.
+
+### 📚 Learning Resources
+
+- **Video**: YouTube  
+- **Documentation**: Official Docs  
+- **Community**: Stack Overflow, Blog Posts  
+- **Courses**: Pluralsight (paid), Udemy (paid)  
+- **Practice**: LeetCode, HackerRank  
+
+---
+
+## 🔧 **Git**
+
+- **Basic Workflow**: `init`, `add`, `commit`, `status`, `log`
+- **Repositories**: Creating, cloning, pushing
+- **Branching & Merging**: Creating/switching branches, resolving merge conflicts
+- **Collaboration**: Forking, pull requests, code reviews
+- **Best Practices**: Small, focused commits; meaningful commit messages
+
+---
+
+## 💻 **C#**
+
+- **Basics**: Variables, data types, methods, control flow
+- **OOP**: Classes, inheritance, interfaces, polymorphism, encapsulation
+- **Advanced**: LINQ, async/await, delegates, generics
+
+---
+
+## 🌐 **.NET**
+
+- **.NET Core vs .NET Framework**: Differences, pros/cons, LTS
+- **ASP.NET Core Web API**: Building RESTful services
+- **Middleware Pipeline**: Request handling, middleware order
+- **Auth**: OAuth2, JWT
+- **API Docs**: Swagger, OpenAPI
+- **Error Handling**: Action results, model state, custom/global exceptions
+- **Hosted Services**: `IHostedService`, `BackgroundService`, Hangfire, Quartz.NET
+- **Dependency Injection**: Purpose, lifetimes, libraries
+
+---
+
+## 🏗️ **Architecture & Code Structure**
+
+- **Solution Structure**: Organizing multiple projects
+- **Project Types**: Class Library, Console App, Web App, Test Project
+- **Folder Structure**
+- **Layered Architecture (N-Tier)**
+- **Onion / Clean Architecture**
+
+---
+
+## 🧪 **Automated Testing**
+
+- **Unit Testing**:
+  - Frameworks: xUnit, NUnit
+  - Tools: Moq, AutoFixture
+  - Patterns: Avoid magic values, use AAA (Arrange-Act-Assert)
+- **Integration Testing**:
+  - [Microsoft Docs Guide](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-9.0&pivots=xunit)
+- **E2E Testing**
+- **Performance Testing**: JMeter, k6
+
+---
+
+## 🌐 **REST API Principles**
+
+- **Statelessness**
+- **Client-Server Architecture**
+- **Uniform Interface**
+- **Resource-Based Structure**
+- **JSON Representation**
+- **Cacheability**
+- **Idempotency**
+- **HTTP Methods & Status Codes**
+- **Error Handling & Security**
+- **Best Practices**: Versioning, Pagination, Rate Limiting
+
+---
+
+## 🗄️ **Databases**
+
+### 📊 **Relational (SQL)**
+
+- **Basics**: Schemas, tables, columns, constraints
+- **CRUD**: Create, Read, Update, Delete
+- **Joins**: INNER, LEFT, UNION
+- **Advanced**: Subqueries, functions, stored procedures, views, triggers
+- **Performance**: Indexing, query optimization, partitioning, sharding
+
+### 📂 **NoSQL (MongoDB)**
+
+- **Concepts**: Document DB vs SQL DB
+- **Basics**: Collections, documents, BSON, CRUD, aggregations
+- **Performance**: Indexing, query optimization
+
+---
+
+## 🧭 **Best Practices**
+
+- **Consistent naming & formatting**
+- **Avoid hard-coding**
+- **KISS**: Keep It Simple, Stupid
+- **YAGNI**: You Aren’t Gonna Need It
+- **SOLID Principles**:
+  - Single Responsibility
+  - Open/Closed
+  - Liskov Substitution
+  - Interface Segregation
+  - Dependency Inversion
+
+---
+
+## 📦 **Containers**
+
+### 🧱 **Container Basics**
+
+- **What is a container?**
+- **Container vs Virtual Machine**
+- **Container lifecycle**
+
+### 🐳 **Docker**
+
+- **Docker architecture**
+- **Basic commands**
+- **Dockerfile**
+- **Networking & volumes**
+
+### 🧩 **Docker Compose**
+
+- **What it is and when to use it**
+- **Commands & file structure**
+
+---
+
+## 🔁 **CI/CD**
+
+- **CI**: Continuous Integration
+- **CD**: Continuous Delivery
+- **GitHub Actions (GHA)**:
+  - Runner, Workflow, Event, Job, Step, Action, Secrets, Artifact
+
+---
+
+## 📈 **Monitoring & Logging**
+
+### 📊 **Monitoring**
+
+- **What is monitoring & alerting?**
+- **Tools**:
+  - Grafana
+  - Prometheus
+  - OpenTelemetry
+
+### 📋 **Logging**
+
+- **What is logging?**
+- **Tools**:
+  - ELK Stack (Elasticsearch, Logstash, Kibana)
+  - Serilog
