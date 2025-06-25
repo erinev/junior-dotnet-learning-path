@@ -63,15 +63,18 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ## 🧪 **Automated Testing**
 
+- **Why it matters?**
+- **Test Pyramid vs Testing Trophy**
 - **Unit Testing**:
   - Frameworks: xUnit, NUnit
   - Tools: Moq, AutoFixture
   - Patterns: Avoid magic values, use AAA (Arrange-Act-Assert)
 - **Integration Testing**:
   - [Microsoft Docs Guide](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-9.0&pivots=xunit)
+  - WireMock: popular open-source tool for API mock testing
 - **E2E Testing**
 - **Performance Testing**: JMeter, k6
-
+- **Behaviour-Driven Development (BDD) Testing**: Natural language for writing automated tests
 ---
 
 ## 🌐 **REST API Principles**
