@@ -6,6 +6,8 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Why & When**: Why and when to use it—and when it doesn’t make sense.
 - **How**: Theory is good, but hands-on practice (e.g., mini-projects) is strongly recommended.
 
+> 💡 **Tip**: While studying prefer consistent progress over random volume. Bad example would be studying everyday for a week and then don't do nothing for a month.
+
 > 💡 **Tip**: You don’t need to memorize everything—just know how to find the right information and apply it effectively.
 
 ### 📚 Learning Resources
@@ -44,7 +46,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Auth**: OAuth2, JWT
 - **API Docs**: Swagger, OpenAPI
 - **Error Handling**: Action results, model state, custom/global exceptions
-- **Hosted Services**: `IHostedService`, `BackgroundService`, Hangfire, Quartz.NET
+- **Hosted Services**: `IHostedService`, `BackgroundService`
 - **Dependency Injection**: Purpose, lifetimes, libraries
 
 ---
@@ -87,6 +89,15 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ---
 
+## 🔄 Background Workers
+
+- **Problem They Solve**: Service-to-service communication, event handling, cron jobs
+- **RabbitMQ**: Message broker for asynchronous communication
+- **Kafka**: Distributed event streaming platform
+- **HangFire / Quartz.NET**: Libraries for scheduling and executing background jobs
+
+---
+
 ## 🗄️ **Databases**
 
 ### 📊 **Relational (SQL)**
@@ -94,7 +105,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Basics**: Schemas, tables, columns, constraints
 - **CRUD**: Create, Read, Update, Delete
 - **Joins**: INNER, LEFT, UNION
-- **Advanced**: Subqueries, functions, stored procedures, views, triggers
+- **More**: Subqueries, functions, stored procedures, views, triggers
 - **Performance**: Indexing, query optimization, partitioning, sharding
 
 ### 📂 **NoSQL (MongoDB)**
