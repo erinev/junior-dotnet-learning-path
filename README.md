@@ -92,6 +92,21 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ---
 
+## 🍇 **GraphQL**
+
+- **What it is and what problem it solves?**
+- **Schema Definition**
+  - Types
+  - Relations
+- **Resolvers**
+- **Queries**
+- **Mutations**
+- **GraphQL Server**
+- **Playground**
+- **Extra**: Directives, Subscriptions, N+1 problem, Interfaces, Unions
+
+---
+
 ## 🔄 Background Workers
 
 - **Problem They Solve**: Service-to-service communication, event handling, cron jobs
