@@ -27,6 +27,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Branching & Merging**: Creating/switching branches, resolving merge conflicts
 - **Collaboration**: Forking, pull requests, code reviews
 - **Best Practices**: Small, focused commits; meaningful commit messages
+- **Github**: a platform for version control and collaborative software development using Git
 
 ---
 
@@ -34,7 +35,8 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **Basics**: Variables, data types, methods, control flow
 - **OOP**: Classes, inheritance, interfaces, polymorphism, encapsulation
-- **Advanced**: LINQ, async/await, delegates, generics
+- **Useful**: LINQ, async/await
+- **Advanced**: delegates, generics
 
 ---
 
