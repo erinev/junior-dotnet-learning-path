@@ -143,14 +143,16 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **Consistent naming & formatting**
 - **Avoid hard-coding**
-- **KISS principle**: Keep It Simple, Stupid
-- **YAGNI principle**: You Aren’t Gonna Need It
-- **SOLID Principles**:
-  - **Single Responsibility**
-  - Open/Closed
-  - Liskov Substitution
-  - Interface Segregation
-  - Dependency Inversion
+- Clean code and software **principles**:
+  - **KISS**: Keep It Simple, Stupid
+  - **YAGNI**: You Aren’t Gonna Need It
+  - **DRY**: Don’t Repeat Yourself
+  - **SOLID**:
+    - Single Responsibility
+    - Open/Closed
+    - Liskov Substitution
+    - Interface Segregation
+    - Dependency Inversion
 
 ---
 
