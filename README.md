@@ -12,11 +12,11 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ### 📚 Learning Resources
 
-- **Video**: YouTube  
-- **Documentation**: Official Docs  
-- **Community**: Stack Overflow, Blog Posts  
+- **Video**: YouTube (very good for quick intro/overviews, but also has extensive tutorials)
+- **Documentation**: Official Docs ([.NET documentation](https://learn.microsoft.com/en-us/dotnet/), [.NET Learning Center](https://dotnet.microsoft.com/en-us/learn))
+- **Community**: Stack Overflow, Blog Posts, LinkedIn Dev Groups
 - **Courses**: Pluralsight (paid), Udemy (paid)  
-- **Practice**: LeetCode, HackerRank  
+- **Practice**: LeetCode, HackerRank or similar
 
 ---
 
@@ -33,10 +33,10 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ## 💻 **C#**
 
-- **Basics**: Variables, data types, methods, control flow
+- **Basics**: Variables, data types, properties, methods, collection, control flow (conditional operators and loops)
 - **OOP**: Classes, inheritance, interfaces, polymorphism, encapsulation
-- **Useful**: LINQ, async/await
-- **Advanced**: delegates, generics
+- **Useful**: LINQ, async/await, exception handling, 
+- **Advanced**: Delegates, generics, lambda expressions, reflection
 
 ---
 
@@ -58,8 +58,10 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Solution Structure**: Organizing multiple projects
 - **Project Types**: Class Library, Console App, Web App, Test Project
 - **Folder Structure**
+- **Monolith** vs **Modular Monolith** vs **Microservices**
 - **Layered Architecture (N-Tier)**
 - **Onion / Clean Architecture**
+- **CQRS** (Command Query Responsibility Segregation)
 
 ---
 
@@ -74,7 +76,6 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Integration Testing**:
   - [Microsoft Docs Guide](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-9.0&pivots=xunit)
   - WireMock: popular open-source tool for API mock testing
-- **E2E Testing**
 - **Performance Testing**: JMeter, k6
 - **Behaviour-Driven Development (BDD) Testing**: Natural language for writing automated tests
 ---
@@ -90,7 +91,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Idempotency**
 - **HTTP Methods & Status Codes**
 - **Error Handling & Security**
-- **Best Practices**: Versioning, Pagination, Rate Limiting
+- **Best Practices**: Use nouns for endpoints, Hierarchical structure, JSON, Versioning, Filtering/Pagination/Sorting, Rate Limiting, Security, etc.
 
 ---
 
@@ -111,7 +112,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ## 🔄 Background Workers
 
-- **Problem They Solve**: Service-to-service communication, event handling, cron jobs
+- **Problems They Solve**: Service-to-service communication, event handling, cron jobs
 - **RabbitMQ**: Message broker for asynchronous communication
 - **Kafka**: Distributed event streaming platform
 - **HangFire / Quartz.NET**: Libraries for scheduling and executing background jobs
@@ -120,18 +121,19 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ## 🗄️ **Databases**
 
-### 📊 **Relational (SQL)**
+### 📊 **Relational (PostgreSQL)**
 
 - **Basics**: Schemas, tables, columns, constraints
-- **CRUD**: Create, Read, Update, Delete
-- **Joins**: INNER, LEFT, UNION
+- **CRUD**: Insert, select, update, delete
+- **Joins**: INNER, LEFT, UNION, CROSS
 - **More**: Subqueries, functions, stored procedures, views, triggers
-- **Performance**: Indexing, query optimization, partitioning, sharding
+- **Performance**: Indexing, query optimization, partitioning, sharding, materialized views
+- Advanced PostgreSQL **Data Types** (JSON/JSONB/Arrays)
 
 ### 📂 **NoSQL (MongoDB)**
 
 - **Concepts**: Document DB vs SQL DB
-- **Basics**: Collections, documents, BSON, CRUD, aggregations
+- **Basics**: Collections, documents, BSON, CRUD operations, aggregations
 - **Performance**: Indexing, query optimization
 
 ---
@@ -140,10 +142,10 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **Consistent naming & formatting**
 - **Avoid hard-coding**
-- **KISS**: Keep It Simple, Stupid
-- **YAGNI**: You Aren’t Gonna Need It
+- **KISS principle**: Keep It Simple, Stupid
+- **YAGNI principle**: You Aren’t Gonna Need It
 - **SOLID Principles**:
-  - Single Responsibility
+  - **Single Responsibility**
   - Open/Closed
   - Liskov Substitution
   - Interface Segregation
@@ -188,13 +190,15 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **What is monitoring & alerting?**
 - **Tools**:
+  - OpenTelemetry
   - Grafana
   - Prometheus
-  - OpenTelemetry
 
 ### 📋 **Logging**
 
 - **What is logging?**
 - **Tools**:
-  - ELK Stack (Elasticsearch, Logstash, Kibana)
   - Serilog
+  - ELK Stack (Elasticsearch, Logstash, Kibana)
+  - Grafana Loki 
+  
