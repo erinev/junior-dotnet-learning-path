@@ -33,9 +33,9 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ## 💻 **C#**
 
-- **Basics**: Variables, data types, properties, methods, collection, control flow (conditional operators and loops)
+- **Basics**: Variables, data types, properties, methods, collections, control flow (conditional operators and loops)
 - **OOP**: Classes, inheritance, interfaces, polymorphism, encapsulation
-- **Useful**: LINQ, async/await, exception handling, 
+- **Useful**: LINQ, async/await, exception handling
 - **Advanced**: Delegates, generics, lambda expressions, reflection
 
 ---
