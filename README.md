@@ -4,7 +4,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **What**: What the topic is and what problem it solves.
 - **Why & When**: Why and when to use it—and when it doesn’t make sense.
-- **How**: Theory is good, but hands-on practice (e.g., mini-projects) is strongly recommended.
+- **How**: Theory is good, but hands-on practice (e.g., mini-projects) is strongly recommended. Putting everything together in the single project is even better! (e.g.: [Order Management API Exercise](https://github.com/erinev/order-management-api-exercise))
 
 > 💡 **Tip**: While studying prefer consistent progress over random volume. Bad example would be studying everyday for a week and then don't do nothing for a month.
 
