@@ -36,7 +36,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Basics**: Variables, data types, properties, methods, collections, control flow (conditional operators and loops)
 - **OOP**: Classes, inheritance, interfaces, polymorphism, encapsulation
 - **Useful**: LINQ, async/await, exception handling
-- **Advanced**: Delegates, generics, lambda expressions, reflection
+- **Advanced**: Memory management (garbage collection/memory allocation), delegates, generics, lambda expressions, reflection
 
 ---
 
@@ -50,6 +50,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Error Handling**: Action results, model state, custom/global exceptions
 - **Hosted Services**: `IHostedService`, `BackgroundService`
 - **Dependency Injection**: Purpose, lifetimes, libraries
+- **Configuration Management**: Manage application settings using `appsettings.json` and `environment variables`
 
 ---
 
