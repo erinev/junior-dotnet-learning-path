@@ -12,11 +12,11 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 ### 📚 Learning Resources
 
-- **Video**: YouTube (very good for quick intro/overviews, but also has extensive tutorials)
-- **Documentation**: Official Docs ([.NET documentation](https://learn.microsoft.com/en-us/dotnet/), [.NET Learning Center](https://dotnet.microsoft.com/en-us/learn))
-- **Community**: Stack Overflow, Blog Posts, LinkedIn Dev Groups
-- **Courses**: Pluralsight (paid), Udemy (paid)  
-- **Practice**: LeetCode, HackerRank or similar
+- **Video**: `YouTube` (very good for quick intro/overviews, but also has extensive tutorials)
+- **Documentation**: `Official Docs` ([.NET documentation](https://learn.microsoft.com/en-us/dotnet/), [.NET Learning Center](https://dotnet.microsoft.com/en-us/learn))
+- **Community**: `Stack Overflow`, `Blog Posts`, `LinkedIn Dev Groups`
+- **Courses**: `Pluralsight` (paid), `Udemy` (paid)  
+- **Practice**: `LeetCode`, `HackerRank` or similar
 
 ---
 
