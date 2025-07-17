@@ -26,7 +26,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Repositories**: Creating, cloning, pushing
 - **Branching & Merging**: Creating/switching branches, resolving merge conflicts
 - **Collaboration**: Forking, pull requests, code reviews
-- **Best Practices**: Small, focused commits; meaningful commit messages
+- **Best Practices**: Small and focused commits, meaningful commit messages
 - **Github**: a platform for version control and collaborative software development using Git
 
 ---
