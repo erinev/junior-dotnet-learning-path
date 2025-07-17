@@ -26,8 +26,8 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Repositories**: Creating, cloning, pushing
 - **Branching & Merging**: Creating/switching branches, resolving merge conflicts
 - **Collaboration**: Forking, pull requests, code reviews
-- **Best Practices**: Small and focused commits, meaningful commit messages
-- **Github**: a platform for version control and collaborative software development using Git
+- **Best Practices**: Small, focused commits; meaningful commit messages
+- **GitHub**: A platform for version control and collaborative software development using Git
 
 ---
 
@@ -71,13 +71,13 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Why it matters?**
 - **Test Pyramid vs Testing Trophy**
 - **Unit Testing**:
-  - Frameworks: xUnit, NUnit
-  - Tools: Moq, AutoFixture
+  - Frameworks: `xUnit`, `NUnit`
+  - Tools: `Moq`, `AutoFixture`
   - Patterns: Avoid magic values, use AAA (Arrange-Act-Assert)
 - **Integration Testing**:
   - [Microsoft Docs Guide](https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-9.0&pivots=xunit)
-  - WireMock: popular open-source tool for API mock testing
-- **Performance Testing**: JMeter, k6
+  - `WireMock`: popular open-source tool for API mock testing
+- **Performance Testing**: `JMeter` vs `k6`
 - **Behaviour-Driven Development (BDD) Testing**: Natural language for writing automated tests
 ---
 
@@ -92,7 +92,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Idempotency**
 - **HTTP Methods & Status Codes**
 - **Error Handling & Security**
-- **Best Practices**: Use nouns for endpoints, Hierarchical structure, JSON, Versioning, Filtering/Pagination/Sorting, Rate Limiting, Security, etc.
+- **Best Practices**: Use nouns for endpoints, hierarchical structure, JSON, versioning, filtering/pagination/sorting, rate Limiting, CORS, authentication, etc.
 
 ---
 
@@ -107,7 +107,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Mutations**
 - **GraphQL Server**
 - **Playground**
-- **Extra**: Directives, Subscriptions, N+1 problem, Interfaces, Unions
+- **Extra**: Directives, subscriptions, N+1 problem, interfaces, unions
 
 ---
 
@@ -129,7 +129,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Joins**: INNER, LEFT, UNION, CROSS
 - **More**: Subqueries, functions, stored procedures, views, triggers
 - **Performance**: Indexing, query optimization, partitioning, sharding, materialized views
-- Advanced PostgreSQL **Data Types** (JSON/JSONB/Arrays)
+- Advanced PostgreSQL **Data Types**: JSON vs JSONB, Arrays
 
 ### 📂 **NoSQL (MongoDB)**
 
