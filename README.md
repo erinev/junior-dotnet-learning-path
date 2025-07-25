@@ -62,6 +62,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Monolith** vs **Modular Monolith** vs **Microservices**
 - **Layered Architecture (N-Tier)**
 - **Onion / Clean Architecture**
+- **Repository Pattern**
 - **CQRS** (Command Query Responsibility Segregation)
 
 ---
@@ -129,6 +130,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 - **Joins**: INNER, LEFT, UNION, CROSS
 - **More**: Subqueries, functions, stored procedures, views, triggers
 - **Performance**: Indexing, query optimization, partitioning, sharding, materialized views
+- **Libraries**: Dapper vs Entity Framework, Npgsql
 - Advanced PostgreSQL **Data Types**: JSON vs JSONB, Arrays
 
 ### 📂 **NoSQL (MongoDB)**
