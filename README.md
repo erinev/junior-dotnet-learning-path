@@ -177,7 +177,7 @@ You don’t need to become an expert in every topic listed below, but it’s cru
 
 - **What it is and when to use it**
 - **Commands & file structure**
-- **Ideal Local Setup**: It should be enough to run single command `docker compose up` and it startups all required services like DB (with applied scipts) and API and it is possible to perform requests to it without opening IDE.
+- **Ideal local setup**: It should be enough to run single command `docker compose up` and it startups all required services like DB (with applied scipts) and API and it is possible to perform requests to it without opening IDE.
 
 ---
 
